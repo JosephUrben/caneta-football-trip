@@ -9,10 +9,9 @@ on:
 permissions:
   contents: write
 
-automation:
-  concurrency:
-    group: bootstrap-product
-    cancel-in-progress: false
+concurrency:
+  group: bootstrap-product
+  cancel-in-progress: false
 
 jobs:
   unpack-and-publish:
