@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<rect width="512" height="512" rx="112" fill="#0b5a3a"/>
+<circle cx="256" cy="256" r="170" fill="none" stroke="#f1bd3f" stroke-width="28"/>
+<path d="M256 132l72 52-27 85h-90l-27-85z" fill="#f1bd3f"/>
+<path d="M184 184l-58 42 22 76 63-33M328 184l58 42-22 76-63-33M148 302l32 70 76 0M364 302l-32 70h-76" fill="none" stroke="#f1bd3f" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="256" y="454" text-anchor="middle" fill="#f1bd3f" font-family="Arial, sans-serif" font-size="54" font-weight="900">CANETA</text>
+</svg>

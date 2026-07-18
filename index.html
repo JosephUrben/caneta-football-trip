@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0b5a3a" />
+  <meta name="description" content="Your private, offline-friendly Caneta Football trip companion." />
+  <meta name="color-scheme" content="light dark" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./icons/icon-192.png" />
+  <link rel="stylesheet" href="./styles.css" />
+  <title>My Football Trip — Caneta Football</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <svg class="icon-sprite" aria-hidden="true">
+    <symbol id="icon-home" viewBox="0 0 24 24"><path d="m3 11 9-8 9 8"/><path d="M5 10v10h14V10"/><path d="M9 20v-6h6v6"/></symbol>
+    <symbol id="icon-ball" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m9.5 9 2.5-2 2.5 2-.9 3h-3.2zM7 16l3.4-1 3.2 2.3M17 16l-3.4 1.3M6.5 8.5 9.5 9M17.5 8.5 14.5 9"/></symbol>
+    <symbol id="icon-route" viewBox="0 0 24 24"><circle cx="6" cy="19" r="3"/><circle cx="18" cy="5" r="3"/><path d="M6 16c0-6 12-2 12-8"/></symbol>
+    <symbol id="icon-map" viewBox="0 0 24 24"><path d="m3 6 6-3 6 3 6-3v15l-6 3-6-3-6 3z"/><path d="M9 3v15M15 6v15"/></symbol>
+    <symbol id="icon-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8z"/></symbol>
+    <symbol id="icon-wallet" viewBox="0 0 24 24"><path d="M4 6h14a2 2 0 0 1 2 2v11H4a2 2 0 0 1-2-2V6a3 3 0 0 1 3-3h12v3"/><path d="M15 11h7v5h-7a2 2 0 0 1 0-5z"/></symbol>
+    <symbol id="icon-guide" viewBox="0 0 24 24"><path d="M4 5a3 3 0 0 1 3-3h12v18H7a3 3 0 0 0-3 3z"/><path d="M4 5v18M8 7h7M8 11h7"/></symbol>
+    <symbol id="icon-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="icon-pin" viewBox="0 0 24 24"><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0z"/><circle cx="12" cy="10" r="2"/></symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="icon-external" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9"/><path d="M18 13v7H4V6h7"/></symbol>
+    <symbol id="icon-chevron" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+    <symbol id="icon-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M5 21h14"/></symbol>
+    <symbol id="icon-ticket" viewBox="0 0 24 24"><path d="M3 7h18v4a2 2 0 0 0 0 4v4H3v-4a2 2 0 0 0 0-4z"/><path d="M13 7v12"/></symbol>
+    <symbol id="icon-shield" viewBox="0 0 24 24"><path d="M12 3 20 6v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="m9 12 2 2 4-5"/></symbol>
+    <symbol id="icon-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7h.01"/></symbol>
+  </svg>
+
+  <header class="app-header">
+    <a class="brand-lockup" href="#home" aria-label="Caneta Football Trip home">
+      <div class="brand-mark" aria-hidden="true"><span>CF</span></div>
+      <div>
+        <p class="eyebrow">CANETA FOOTBALL</p>
+        <p class="product-name">My Football Trip</p>
+      </div>
+    </a>
+    <div class="header-actions">
+      <span id="offline-pill" class="status-pill" hidden>Offline ready</span>
+      <button id="install-button" class="button button--small button--gold" type="button" hidden>Install</button>
+    </div>
+  </header>
+
+  <div id="network-status" class="network-status" role="status" aria-live="polite"></div>
+  <div id="demo-warning" class="demo-warning" hidden></div>
+
+  <main id="main" class="app-main" tabindex="-1">
+    <section id="view-home" class="view is-active" data-view="home" aria-labelledby="home-heading"></section>
+    <section id="view-matchday" class="view" data-view="matchday" aria-labelledby="matchday-heading"></section>
+    <section id="view-trip" class="view" data-view="trip" aria-labelledby="trip-heading"></section>
+    <section id="view-map" class="view" data-view="map" aria-labelledby="map-heading"></section>
+    <section id="view-saved" class="view" data-view="saved" aria-labelledby="saved-heading"></section>
+    <section id="view-budget" class="view" data-view="budget" aria-labelledby="budget-heading"></section>
+    <section id="view-guide" class="view" data-view="guide" aria-labelledby="guide-heading"></section>
+  </main>
+
+  <nav class="bottom-nav" aria-label="Football trip navigation">
+    <button class="nav-item is-active" type="button" data-target="home" aria-current="page"><svg><use href="#icon-home"/></svg><span>Home</span></button>
+    <button class="nav-item" type="button" data-target="matchday"><svg><use href="#icon-ball"/></svg><span>Matchday</span></button>
+    <button class="nav-item" type="button" data-target="trip"><svg><use href="#icon-route"/></svg><span>Trip</span></button>
+    <button class="nav-item" type="button" data-target="map"><svg><use href="#icon-map"/></svg><span>Map</span></button>
+    <button class="nav-item" type="button" data-target="saved"><svg><use href="#icon-heart"/></svg><span>Saved</span></button>
+    <button class="nav-item" type="button" data-target="budget"><svg><use href="#icon-wallet"/></svg><span>Budget</span></button>
+    <button class="nav-item" type="button" data-target="guide"><svg><use href="#icon-guide"/></svg><span>Guide</span></button>
+  </nav>
+
+  <template id="place-template">
+    <article class="place-card">
+      <div class="place-card__visual">
+        <span class="place-card__initials"></span>
+        <span class="place-card__status"></span>
+      </div>
+      <div class="place-card__content">
+        <div class="place-card__topline"><span class="category-chip"></span><span class="place-card__location"></span></div>
+        <h3 class="place-card__title"></h3>
+        <p class="place-card__significance"></p>
+        <p class="place-card__description"></p>
+        <p class="place-card__note"></p>
+        <div class="place-card__actions">
+          <button class="icon-button save-button" type="button"></button>
+          <a class="icon-button map-button" target="_blank" rel="noopener noreferrer"><svg><use href="#icon-pin"/></svg> Map</a>
+        </div>
+      </div>
+    </article>
+  </template>
+
+  <input id="import-file" type="file" accept="application/json" hidden />
+  <script src="./app.js" type="module"></script>
+</body>
+</html>
