@@ -5,6 +5,7 @@ on:
     branches: ["main"]
     paths:
       - ".github/workflows/repair-product.yml"
+      - "package/**"
   workflow_dispatch:
 
 permissions:
@@ -31,6 +32,8 @@ jobs:
           base64 --decode /tmp/caneta-product.b64 > /tmp/caneta-product.zip
           echo "Reconstructed archive:"
           sha256sum /tmp/caneta-product.zip
+          echo "Expected: f3b87537e1315a4a22b1ff6bcdf23681b31ce1d1730c408f7b30c31c7962bd67"
+          echo "f3b87537e1315a4a22b1ff6bcdf23681b31ce1d1730c408f7b30c31c7962bd67  /tmp/caneta-product.zip" | sha256sum --check --strict
           unzip -t /tmp/caneta-product.zip
 
       - name: Replace loader with direct application files
