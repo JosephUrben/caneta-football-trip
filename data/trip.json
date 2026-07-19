@@ -1,0 +1,795 @@
+{
+  "schemaVersion": 1,
+  "journeyId": "CFT-DEMO-BA-001",
+  "productType": "Caneta Personalised Football Trip",
+  "demo": true,
+  "travellerName": "Sample Traveller",
+  "destination": "Buenos Aires",
+  "tripTitle": "Buenos Aires: Beyond the 90 Minutes",
+  "subtitle": "Football neighbourhoods, club identity and a demonstration matchday",
+  "startDate": "2026-11-12",
+  "endDate": "2026-11-16",
+  "timezone": "America/Argentina/Buenos_Aires",
+  "currency": "ARS",
+  "homeCurrency": "GBP",
+  "intro": "A five-day football-cultural route that connects La Boca, Núñez, Parque Patricios and central Buenos Aires while keeping one demonstration match as the anchor rather than the entire trip.",
+  "routeOverview": "The route groups places by football geography. La Boca is explored before the demonstration match so the traveller understands the club and neighbourhood context. River and the northern city form a separate day, while Parque Patricios adds a different club identity without forcing a cross-city rush.",
+  "accommodation": {
+    "area": "San Telmo or Microcentro demonstration base",
+    "checkIn": "From 15:00",
+    "checkOut": "By 11:00",
+    "note": "Final accommodation advice should reflect the traveller's budget, evening plans and preferred transport."
+  },
+  "match": {
+    "homeTeam": "Boca Juniors",
+    "awayTeam": "Demonstration Opponent",
+    "competition": "Demonstration fixture — not a real booking",
+    "date": "2026-11-14",
+    "kickoff": "19:00",
+    "stadium": "La Bombonera",
+    "ticketStatus": "Sample only — no valid ticket included",
+    "stand": "Confirm on valid ticket",
+    "entrance": "Confirm through official ticket information",
+    "recommendedArrival": "by 17:00",
+    "idRequirement": "Confirm the official requirement attached to the valid ticket",
+    "bagRule": "Travel light and confirm current prohibited-item guidance",
+    "timeline": [
+      {
+        "time": "09:30",
+        "title": "Official recheck",
+        "description": "Confirm kickoff, ticket instructions, entrance, weather and transport using official sources."
+      },
+      {
+        "time": "11:00",
+        "title": "Slow start and early lunch",
+        "description": "Keep the morning unhurried and eat before entering the busiest matchday period."
+      },
+      {
+        "time": "13:30",
+        "title": "Travel toward La Boca",
+        "description": "Use the reviewed route and avoid relying on a single live-navigation option."
+      },
+      {
+        "time": "14:30",
+        "title": "Neighbourhood and club context",
+        "description": "Use the approved route; do not treat every street as suitable for unguided wandering."
+      },
+      {
+        "time": "16:15",
+        "title": "Move toward the stadium perimeter",
+        "description": "Stop adding activities and shift attention to ticket, entrance and crowd flow."
+      },
+      {
+        "time": "17:00",
+        "title": "Recommended arrival",
+        "description": "Allow time for security, ticket problems and finding the correct approach."
+      },
+      {
+        "time": "19:00",
+        "title": "Kickoff",
+        "description": "Follow official instructions and the conditions attached to the valid ticket."
+      },
+      {
+        "time": "21:00",
+        "title": "Post-match exit",
+        "description": "Use the reviewed transport plan and expect crowd-related delays."
+      }
+    ],
+    "checklist": [
+      {
+        "id": "match-ticket",
+        "label": "Valid ticket downloaded and available offline"
+      },
+      {
+        "id": "match-id",
+        "label": "Correct identification requirement confirmed"
+      },
+      {
+        "id": "match-gate",
+        "label": "Stand, entrance and access route confirmed"
+      },
+      {
+        "id": "match-bag",
+        "label": "Bag and prohibited-item rules rechecked"
+      },
+      {
+        "id": "match-transport",
+        "label": "Primary and backup transport saved"
+      },
+      {
+        "id": "match-power",
+        "label": "Phone charged and portable battery packed"
+      },
+      {
+        "id": "match-weather",
+        "label": "Weather and clothing checked"
+      },
+      {
+        "id": "match-cash",
+        "label": "Payment plan and small emergency reserve ready"
+      }
+    ],
+    "transport": {
+      "primary": "Use the final reviewed route from the accommodation area to the approved approach point, allowing for matchday road closures and crowd controls.",
+      "backup": "Keep an alternative combination of public transport and a verified pickup point outside the immediate stadium crowd.",
+      "postMatch": "Do not assume the arrival route will work in reverse. Use the post-match pickup or transport point selected during human review."
+    },
+    "supporterAdvice": [
+      "Approach the experience as a guest rather than trying to perform local supporter identity.",
+      "Do not display rival colours or provoke supporters.",
+      "Keep valuables unobtrusive and avoid filming people at close range without permission.",
+      "Follow supporter segregation, police instructions and the conditions attached to the ticket.",
+      "Use Caneta's reviewed visitor route rather than improvising around the stadium."
+    ],
+    "safetyNote": "This demonstration does not supply a real fixture, ticket or current crowd plan. A customer version must be checked again after any kickoff change and within 24 hours of the match.",
+    "verification": "Demonstration content created for the prototype — all operational details require publication review"
+  },
+  "preparationChecklist": [
+    {
+      "id": "prep-insurance",
+      "label": "Confirm travel insurance and entry requirements"
+    },
+    {
+      "id": "prep-ticket",
+      "label": "Confirm the ticket source, validity and transfer conditions"
+    },
+    {
+      "id": "prep-fixture",
+      "label": "Recheck the official fixture date and kickoff"
+    },
+    {
+      "id": "prep-stay",
+      "label": "Confirm accommodation and late-return route"
+    },
+    {
+      "id": "prep-maps",
+      "label": "Download offline map areas and save backup addresses"
+    },
+    {
+      "id": "prep-companion",
+      "label": "Open every companion section once while online"
+    },
+    {
+      "id": "prep-data",
+      "label": "Export a backup of saved companion data before departure"
+    }
+  ],
+  "budget": [
+    {
+      "label": "Accommodation",
+      "amount": 320
+    },
+    {
+      "label": "Football experiences",
+      "amount": 95
+    },
+    {
+      "label": "Transport",
+      "amount": 70
+    },
+    {
+      "label": "Food and drink",
+      "amount": 150
+    },
+    {
+      "label": "Other activities",
+      "amount": 65
+    },
+    {
+      "label": "Flexible buffer",
+      "amount": 100
+    }
+  ],
+  "days": [
+    {
+      "id": "day-1",
+      "date": "2026-11-12",
+      "location": "Central Buenos Aires",
+      "theme": "Arrival and football orientation",
+      "summary": "Settle in, understand the city layout and introduce the football story without overfilling the first day.",
+      "routeLogic": "Stay around the accommodation and central historic area after arrival. The opening football context is deliberately light and does not require a long cross-city journey.",
+      "activities": [
+        {
+          "id": "a1",
+          "placeId": "pla-orientation",
+          "time": "15:30",
+          "title": "Arrival and practical orientation",
+          "type": "task",
+          "description": "Check in, confirm transport cards or payment options, save the accommodation address and review the trip's football geography.",
+          "duration": "60–90 min",
+          "travelTime": "Start at accommodation",
+          "cost": "Free",
+          "address": "San Telmo, Buenos Aires",
+          "latitude": -34.621,
+          "longitude": -58.373,
+          "practicalNote": "Keep the first afternoon light after travel.",
+          "verification": "Demonstration — verify services before publication"
+        },
+        {
+          "id": "a2",
+          "placeId": "pla-san-telmo",
+          "time": "18:00",
+          "title": "San Telmo evening and football introduction",
+          "type": "suggested",
+          "description": "Take a compact walk through the historic area and use the guide to understand how football clubs map onto neighbourhood identity.",
+          "duration": "2 hours",
+          "travelTime": "Walk from demonstration accommodation",
+          "cost": "Flexible",
+          "address": "Plaza Dorrego, Buenos Aires",
+          "latitude": -34.6214,
+          "longitude": -58.3716,
+          "practicalNote": "Choose a well-lit return route and keep valuables discreet.",
+          "alternative": "Use a short café-based football history briefing if arrival is delayed.",
+          "verification": "Demonstration — route needs local review"
+        }
+      ]
+    },
+    {
+      "id": "day-2",
+      "date": "2026-11-13",
+      "location": "La Boca and Barracas",
+      "theme": "Club identity before matchday",
+      "summary": "Understand Boca's stadium, museum and neighbourhood context before the matchday crowds change the area.",
+      "routeLogic": "Travel to the reviewed arrival point, complete one connected La Boca route and leave before the late-evening period. Do not add unrelated cross-city stops.",
+      "activities": [
+        {
+          "id": "a3",
+          "placeId": "pla-bombonera",
+          "time": "10:00",
+          "title": "La Bombonera exterior and club context",
+          "type": "fixed",
+          "description": "Use the approved approach to understand the stadium's relationship with the neighbourhood and prepare for the following day's match logistics.",
+          "duration": "60 min",
+          "travelTime": "Reviewed transfer from central base",
+          "cost": "Exterior free",
+          "address": "Brandsen 805, Buenos Aires",
+          "latitude": -34.6356,
+          "longitude": -58.3647,
+          "practicalNote": "Do not infer matchday access from a non-matchday visit.",
+          "verification": "Confirm access conditions"
+        },
+        {
+          "id": "a4",
+          "placeId": "pla-boca-museum",
+          "time": "11:15",
+          "title": "Boca club museum",
+          "type": "suggested",
+          "description": "Use the museum visit to connect trophies and personalities to the social history of the club.",
+          "duration": "90 min",
+          "travelTime": "Next to stadium",
+          "cost": "Confirm current admission",
+          "address": "Brandsen 805, Buenos Aires",
+          "latitude": -34.6356,
+          "longitude": -58.3647,
+          "practicalNote": "Confirm official opening and whether stadium access is included.",
+          "alternative": "Replace with a longer guided neighbourhood route if the museum is closed.",
+          "verification": "Confirm official opening"
+        },
+        {
+          "id": "a5",
+          "placeId": "pla-caminito",
+          "time": "13:15",
+          "title": "Caminito with neighbourhood context",
+          "type": "suggested",
+          "description": "Visit the best-known streets without confusing the tourist zone with the whole neighbourhood. Connect migration, colour and club mythology.",
+          "duration": "90 min",
+          "travelTime": "Short reviewed walk",
+          "cost": "Free",
+          "address": "Caminito, Buenos Aires",
+          "latitude": -34.6391,
+          "longitude": -58.3628,
+          "practicalNote": "Stay on the reviewed route and follow current local advice.",
+          "verification": "Route review required"
+        }
+      ]
+    },
+    {
+      "id": "day-3",
+      "date": "2026-11-14",
+      "location": "La Boca",
+      "theme": "Demonstration matchday",
+      "summary": "Keep the match as the anchor and reduce optional decisions as the stadium period approaches.",
+      "routeLogic": "The morning stays near the accommodation. Travel toward La Boca early, use only the approved pre-match route and follow the dedicated Matchday tab from mid-afternoon.",
+      "activities": [
+        {
+          "id": "a6",
+          "time": "09:30",
+          "title": "Fixture and ticket recheck",
+          "type": "task",
+          "description": "Reconfirm kickoff, ticket instructions, entrance, bag rules, weather and transport.",
+          "duration": "30 min",
+          "travelTime": "At accommodation",
+          "cost": "Free",
+          "address": "Buenos Aires",
+          "practicalNote": "Use official sources and the final human-reviewed Caneta notes.",
+          "verification": "Required on matchday"
+        },
+        {
+          "id": "a7",
+          "placeId": "pla-pre-match-food",
+          "time": "11:30",
+          "title": "Early lunch near the base",
+          "type": "food",
+          "description": "Eat before travelling into the busiest part of the day. Keep alcohol and timing compatible with the valid ticket conditions and personal safety.",
+          "duration": "75 min",
+          "travelTime": "Near accommodation",
+          "cost": "Flexible",
+          "address": "San Telmo, Buenos Aires",
+          "latitude": -34.621,
+          "longitude": -58.373,
+          "practicalNote": "Use a verified venue that does not complicate the stadium route.",
+          "verification": "Venue to select"
+        },
+        {
+          "id": "a8",
+          "placeId": "pla-bombonera",
+          "time": "13:30",
+          "title": "Begin the reviewed matchday route",
+          "type": "fixed",
+          "description": "Switch to the dedicated Matchday plan and stop adding optional attractions.",
+          "duration": "Matchday",
+          "travelTime": "Allow generous buffer",
+          "cost": "Valid ticket required",
+          "address": "Brandsen 805, Buenos Aires",
+          "latitude": -34.6356,
+          "longitude": -58.3647,
+          "practicalNote": "The prototype does not include a valid ticket or real fixture.",
+          "verification": "Full operational review required"
+        }
+      ]
+    },
+    {
+      "id": "day-4",
+      "date": "2026-11-15",
+      "location": "Núñez and Palermo",
+      "theme": "A contrasting football identity",
+      "summary": "Use River's northern geography to understand how a different major club relates to the city.",
+      "routeLogic": "Move north once, combine the stadium area with nearby non-football space and return through Palermo rather than crossing back and forth.",
+      "activities": [
+        {
+          "id": "a9",
+          "placeId": "pla-monumental",
+          "time": "10:00",
+          "title": "Estadio Monumental and River context",
+          "type": "suggested",
+          "description": "Compare the scale, setting and identity of River's stadium with the previous day's experience.",
+          "duration": "90 min",
+          "travelTime": "Reviewed public transport route",
+          "cost": "Exterior free; tour extra",
+          "address": "Av. Pres. Figueroa Alcorta 7597, Buenos Aires",
+          "latitude": -34.5453,
+          "longitude": -58.4498,
+          "practicalNote": "Confirm tour or museum availability through official channels.",
+          "alternative": "Use an exterior architecture and neighbourhood route if no official visit is available.",
+          "verification": "Confirm official access"
+        },
+        {
+          "id": "a10",
+          "placeId": "pla-river-museum",
+          "time": "11:45",
+          "title": "River museum or stadium tour",
+          "type": "optional",
+          "description": "Choose one official visit if available; avoid stacking multiple paid stadium products.",
+          "duration": "90 min",
+          "travelTime": "At stadium complex",
+          "cost": "Confirm current admission",
+          "address": "Av. Pres. Figueroa Alcorta 7597, Buenos Aires",
+          "latitude": -34.5453,
+          "longitude": -58.4498,
+          "practicalNote": "Book only through an approved source.",
+          "verification": "Confirm official schedule"
+        },
+        {
+          "id": "a11",
+          "placeId": "pla-palermo",
+          "time": "15:00",
+          "title": "Palermo recovery afternoon",
+          "type": "optional",
+          "description": "Balance the football-heavy weekend with food, green space or an independent cultural stop.",
+          "duration": "3 hours",
+          "travelTime": "One north-to-central transfer",
+          "cost": "Flexible",
+          "address": "Palermo, Buenos Aires",
+          "latitude": -34.579,
+          "longitude": -58.423,
+          "practicalNote": "Choose according to post-match energy rather than forcing another checklist.",
+          "verification": "Select final places during review"
+        }
+      ]
+    },
+    {
+      "id": "day-5",
+      "date": "2026-11-16",
+      "location": "Parque Patricios",
+      "theme": "Neighbourhood football and departure",
+      "summary": "End with a different club landscape while staying realistic about luggage and departure time.",
+      "routeLogic": "Use one focused Parque Patricios route only if the departure window allows it. Keep the final stop close enough to return for luggage.",
+      "activities": [
+        {
+          "id": "a12",
+          "placeId": "pla-huracan",
+          "time": "09:30",
+          "title": "Huracán and Parque Patricios context",
+          "type": "optional",
+          "description": "Use the exterior stadium and neighbourhood route to understand a club identity beyond Boca and River.",
+          "duration": "2 hours",
+          "travelTime": "Short transfer from central base",
+          "cost": "Free exterior route",
+          "address": "Av. Amancio Alcorta 2570, Buenos Aires",
+          "latitude": -34.6434,
+          "longitude": -58.3966,
+          "practicalNote": "Skip this if it creates pressure around luggage or departure.",
+          "alternative": "Return to one saved central place instead.",
+          "verification": "Route and departure logic require review"
+        }
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "pla-orientation",
+      "name": "Caneta central orientation point",
+      "destination": "Buenos Aires",
+      "neighbourhood": "San Telmo",
+      "category": "practical",
+      "footballSignificance": "The base for understanding how the city's football neighbourhoods connect.",
+      "description": "A demonstration starting point linking accommodation, transport and the wider trip route.",
+      "practicalNote": "The final location depends on the customer's accommodation.",
+      "latitude": -34.621,
+      "longitude": -58.373,
+      "tags": [
+        "in-trip",
+        "free"
+      ],
+      "scheduled": true,
+      "active": true
+    },
+    {
+      "id": "pla-san-telmo",
+      "name": "San Telmo football orientation",
+      "destination": "Buenos Aires",
+      "neighbourhood": "San Telmo",
+      "category": "city context",
+      "footballSignificance": "A central base from which the city's club geography becomes easier to understand.",
+      "description": "Historic streets, food and an introduction to neighbourhood identity beyond a stadium checklist.",
+      "practicalNote": "Use a reviewed evening route.",
+      "latitude": -34.6214,
+      "longitude": -58.3716,
+      "tags": [
+        "in-trip",
+        "food",
+        "free"
+      ],
+      "scheduled": true,
+      "active": true
+    },
+    {
+      "id": "pla-bombonera",
+      "name": "La Bombonera",
+      "destination": "Buenos Aires",
+      "neighbourhood": "La Boca",
+      "category": "stadium",
+      "footballSignificance": "Boca Juniors' stadium and the central anchor of the demonstration match trip.",
+      "description": "Visit first for context, then return only through the final reviewed matchday route.",
+      "practicalNote": "Non-matchday access does not prove matchday access.",
+      "latitude": -34.6356,
+      "longitude": -58.3647,
+      "tags": [
+        "in-trip",
+        "stadium",
+        "history",
+        "fan-culture",
+        "before-match"
+      ],
+      "scheduled": true,
+      "active": true
+    },
+    {
+      "id": "pla-boca-museum",
+      "name": "Museo de la Pasión Boquense",
+      "destination": "Buenos Aires",
+      "neighbourhood": "La Boca",
+      "category": "museum",
+      "footballSignificance": "A club-focused route through Boca's trophies, personalities and mythology.",
+      "description": "Use it to support the wider social and neighbourhood story, not as a substitute for it.",
+      "practicalNote": "Confirm official opening, admission and included access.",
+      "latitude": -34.6356,
+      "longitude": -58.3647,
+      "tags": [
+        "in-trip",
+        "history",
+        "rainy-day",
+        "before-match"
+      ],
+      "scheduled": true,
+      "active": true
+    },
+    {
+      "id": "pla-caminito",
+      "name": "Caminito",
+      "destination": "Buenos Aires",
+      "neighbourhood": "La Boca",
+      "category": "neighbourhood",
+      "footballSignificance": "Part of the colour and migration story frequently folded into Boca's global image.",
+      "description": "A tourist-facing route that needs context so it is not mistaken for the whole neighbourhood.",
+      "practicalNote": "Stay on the reviewed route and follow current local advice.",
+      "latitude": -34.6391,
+      "longitude": -58.3628,
+      "tags": [
+        "in-trip",
+        "history",
+        "fan-culture",
+        "free",
+        "before-match"
+      ],
+      "scheduled": true,
+      "active": true
+    },
+    {
+      "id": "pla-pre-match-food",
+      "name": "Verified pre-match lunch",
+      "destination": "Buenos Aires",
+      "neighbourhood": "Near accommodation",
+      "category": "food",
+      "footballSignificance": "A practical stop that protects the matchday timeline from hunger, queues and improvisation.",
+      "description": "The final customer trip should name a currently verified venue compatible with the stadium route.",
+      "practicalNote": "Placeholder until venue review.",
+      "latitude": -34.621,
+      "longitude": -58.373,
+      "tags": [
+        "in-trip",
+        "food",
+        "before-match"
+      ],
+      "scheduled": true,
+      "active": true
+    },
+    {
+      "id": "pla-monumental",
+      "name": "Estadio Monumental",
+      "destination": "Buenos Aires",
+      "neighbourhood": "Núñez",
+      "category": "stadium",
+      "footballSignificance": "River Plate's stadium creates a strong contrast in scale, setting and club geography.",
+      "description": "Use the area to compare club identity rather than simply collecting stadium photographs.",
+      "practicalNote": "Confirm current access and event restrictions.",
+      "latitude": -34.5453,
+      "longitude": -58.4498,
+      "tags": [
+        "in-trip",
+        "stadium",
+        "history",
+        "after-match"
+      ],
+      "scheduled": true,
+      "active": true
+    },
+    {
+      "id": "pla-river-museum",
+      "name": "River museum or official tour",
+      "destination": "Buenos Aires",
+      "neighbourhood": "Núñez",
+      "category": "museum",
+      "footballSignificance": "An official interpretation of River's history and stadium.",
+      "description": "Select only if the current official product fits the route and customer budget.",
+      "practicalNote": "Use an official or approved booking source.",
+      "latitude": -34.5453,
+      "longitude": -58.4498,
+      "tags": [
+        "in-trip",
+        "history",
+        "rainy-day",
+        "after-match"
+      ],
+      "scheduled": true,
+      "active": true
+    },
+    {
+      "id": "pla-palermo",
+      "name": "Palermo recovery afternoon",
+      "destination": "Buenos Aires",
+      "neighbourhood": "Palermo",
+      "category": "non-football",
+      "footballSignificance": "A deliberate break that stops a football trip becoming an exhausting stadium checklist.",
+      "description": "Food, parks or independent culture selected according to the traveller's interests.",
+      "practicalNote": "Final venues require customer-specific review.",
+      "latitude": -34.579,
+      "longitude": -58.423,
+      "tags": [
+        "in-trip",
+        "food",
+        "after-match"
+      ],
+      "scheduled": true,
+      "active": true
+    },
+    {
+      "id": "pla-huracan",
+      "name": "Estadio Tomás Adolfo Ducó",
+      "destination": "Buenos Aires",
+      "neighbourhood": "Parque Patricios",
+      "category": "stadium",
+      "footballSignificance": "Huracán offers a neighbourhood-club perspective beyond the two internationally dominant clubs.",
+      "description": "An exterior and district route for understanding a different strand of Buenos Aires football culture.",
+      "practicalNote": "Confirm route suitability and do not risk the departure window.",
+      "latitude": -34.6434,
+      "longitude": -58.3966,
+      "tags": [
+        "in-trip",
+        "stadium",
+        "history",
+        "fan-culture",
+        "free",
+        "after-match"
+      ],
+      "scheduled": true,
+      "active": true
+    },
+    {
+      "id": "pla-shirt-shop",
+      "name": "Approved football shirt shop",
+      "destination": "Buenos Aires",
+      "neighbourhood": "To confirm",
+      "category": "shopping",
+      "footballSignificance": "A place to buy a legitimate local football memory without relying on an unverified seller.",
+      "description": "The final trip should name an official or carefully reviewed independent shop.",
+      "practicalNote": "Placeholder until verification.",
+      "address": "Buenos Aires, Argentina",
+      "tags": [
+        "shopping",
+        "rainy-day"
+      ],
+      "scheduled": false,
+      "active": true
+    },
+    {
+      "id": "pla-rain-option",
+      "name": "Rainy-day football alternative",
+      "destination": "Buenos Aires",
+      "neighbourhood": "Central",
+      "category": "alternative",
+      "footballSignificance": "Protects the football theme when outdoor routes become unsuitable.",
+      "description": "A reviewed museum, archive, bookshop or café-based football-history activity.",
+      "practicalNote": "Select and verify before publication.",
+      "address": "Buenos Aires, Argentina",
+      "tags": [
+        "rainy-day",
+        "history"
+      ],
+      "scheduled": false,
+      "active": true
+    }
+  ],
+  "map": {
+    "title": "Buenos Aires football geography",
+    "summary": "The route separates La Boca, Núñez and Parque Patricios into realistic neighbourhood days, with a central base and one dedicated matchday.",
+    "routeUrl": "https://www.google.com/maps/search/?api=1&query=Buenos+Aires+football+stadiums",
+    "stops": [
+      {
+        "name": "Central base",
+        "note": "Arrival and orientation",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=San+Telmo+Buenos+Aires"
+      },
+      {
+        "name": "La Bombonera",
+        "note": "Boca context and demonstration match",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=La+Bombonera"
+      },
+      {
+        "name": "Estadio Monumental",
+        "note": "River and northern football geography",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Estadio+Monumental+Buenos+Aires"
+      },
+      {
+        "name": "Parque Patricios",
+        "note": "Huracán and neighbourhood football",
+        "mapUrl": "https://www.google.com/maps/search/?api=1&query=Estadio+Tomas+Adolfo+Duco"
+      }
+    ]
+  },
+  "guideSections": [
+    {
+      "eyebrow": "Football culture",
+      "title": "Reading the city through its clubs",
+      "intro": "Caneta's value is the relationship between football and place, not a list of stadium pins.",
+      "items": [
+        {
+          "label": "Neighbourhood identity",
+          "text": "Treat club identity as connected to local history, migration, class, memory and changing urban geography."
+        },
+        {
+          "label": "Beyond Boca and River",
+          "text": "Use at least one additional club landscape to avoid reducing the city to its two most internationally recognised teams."
+        },
+        {
+          "label": "Guest behaviour",
+          "text": "Observe and learn without pretending to possess a local supporter identity."
+        }
+      ]
+    },
+    {
+      "eyebrow": "Essential Spanish",
+      "title": "Useful matchday phrases",
+      "items": [
+        {
+          "label": "¿Por dónde se entra a esta tribuna?",
+          "text": "Where do I enter for this stand?"
+        },
+        {
+          "label": "¿Este es el acceso correcto?",
+          "text": "Is this the correct entrance?"
+        },
+        {
+          "label": "¿A qué hora abren las puertas?",
+          "text": "What time do the gates open?"
+        },
+        {
+          "label": "Necesito volver a…",
+          "text": "I need to return to…"
+        },
+        {
+          "label": "¿Puede marcarlo en el mapa?",
+          "text": "Can you mark it on the map?"
+        }
+      ]
+    },
+    {
+      "eyebrow": "Tickets",
+      "title": "Treat access as operational information",
+      "items": [
+        "A recommendation is not a ticket and a screenshot is not proof that a ticket is valid.",
+        "Recheck the official fixture and the precise conditions attached to the customer's ticket.",
+        "Do not promise access, transfers, names, entrances or ID rules without current verification."
+      ]
+    },
+    {
+      "eyebrow": "Affiliate standard",
+      "title": "Meaning first, booking second",
+      "items": [
+        "Explain why a place or product belongs in the trip before presenting a booking link.",
+        "Label commercial relationships clearly.",
+        "Do not let commission override safety, suitability or route logic."
+      ]
+    }
+  ],
+  "practicalInfo": [
+    {
+      "title": "Transport",
+      "items": [
+        "Store the accommodation address and key route points offline.",
+        "Matchday closures and crowd controls can invalidate an ordinary route.",
+        "Keep a backup pickup point outside the immediate stadium area."
+      ]
+    },
+    {
+      "title": "Money and connectivity",
+      "items": [
+        "Confirm current payment and cash advice during human review.",
+        "Do not depend on one phone, one payment method or one live map.",
+        "The budget tool stores its entries only in the current browser unless exported."
+      ]
+    },
+    {
+      "title": "Verification standard",
+      "items": [
+        "Fixture, ticket, stadium access, transport and safety information must be rechecked closest to the match.",
+        "Opening times, prices and tours should come from official or approved sources.",
+        "Every customer-facing record should carry a review or verification note."
+      ]
+    }
+  ],
+  "emergencyInfo": [
+    {
+      "label": "Immediate danger",
+      "text": "Use the locally confirmed emergency number and follow official instructions."
+    },
+    {
+      "label": "Ticket problem",
+      "text": "Contact the official ticket provider or approved seller; Caneta cannot create or validate access."
+    },
+    {
+      "label": "Lost route",
+      "text": "Return to a reviewed public location or accommodation rather than improvising near a stadium crowd."
+    }
+  ]
+}
